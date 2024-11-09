@@ -1,8 +1,107 @@
 /* shared styles */
 
 *{
-    margin: 0;
-    padding: 0;
-
+    /* margin:  ; */
+    /* padding: 50px 135px auto; */
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
+
+
+:root{
+    --orange-theme-color: rgba(255, 84, 0, 1);
+    --primary-color:rgba(66, 66, 71, 1);
+    --black:rgba(19, 19, 24, 1)
+}
+
+
+header{
+    margin: 50px 110px auto;
+}
+.hero-travel-text{
+    display: flex;
+    text-align: center;
+   /* background-color: lightcoral; */
+   
+}
+.hero-travel-text{
+  
+}
+.hero-travel{
+    margin-left: 15px;
+    font-size: 2rem;
+    color: var(rgba(19, 19, 24, 1));
+}
+.travel-image{
+    align-content: center;
+}
+.orange{
+    color: var(--orange-theme-color);
+}
+
+
+/* navbar styles */
+.menu{
+    display: none;
+}
+.navbar-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    align-content: center;
+}
+.nav-links ul{
+    display: flex;
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: var(--primary-color) ;
+    margin-left: 50px;
+    font-size: 1.3rem;
+    font-weight: 550;
+
+}
+.orange-home>a{
+    color: var(--orange-theme-color); 
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    header{
+        margin: 30px 20px auto ;
+    }
+    
+    .nav-links{
+        display: none;
+    }
+    .hero-travel{
+        font-size: 1rem;
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+    }
+    .menu{
+        display: flex;
+        
+    }
+    .menu>h3{
+        align-content: center;
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin-left: 180%;
+        color: var(--primary-color);
+    }
+    .menu:hover 
+}
