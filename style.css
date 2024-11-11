@@ -93,7 +93,7 @@ main{
     background-repeat: no-repeat;
     background-position: center;
 
-   
+   width: 1200px;
     height:500px;
 }
 
@@ -181,6 +181,234 @@ main{
     margin-left: 10%;
 }
 
+/* choose your destination section started */
+
+.your-destination-parent{
+    text-align: center;
+    margin-top: 100px;
+}
+.destination-title{
+    margin-bottom: 50px;
+}
+.destination-title >h1{
+    font-size: 2.5rem;
+}
+.destination-title >p{
+    font-size: 1rem;
+    font-weight: 450;
+    color: var(--primary-color);
+}
+
+.destination-imeges-container{
+display: flex;
+flex-wrap: wrap;
+gap: 26px;
+}
+  
+.destination-images-1{
+  height: 300px;
+  width: 580px;
+    background-image: url(./Images/maldives.png);
+    /* background-repeat: no-repeat;background-position: center; */
+}
+.destination-images-2{
+    height: 300px;
+    width: 580px;
+background-image: url(./Images/indonesia.png);
+}
+.destination-images-3{
+    height: 285px;
+    width: 380px;
+    background-image: url(./Images/srilanka.png);
+}
+.destination-images-4{
+    height: 285px;
+    width: 480px;
+    background-image: url(./Images/north-america.png);
+}
+.destination-images-5{
+    height: 274px;
+    width: 290px;
+    background-image: url(./Images/kashmir.png);
+}
+.destination-images-6{
+    height: 300px;
+    width: 480px;
+    background-image: url(./Images/bangladesh.png);
+}
+.destination-images-7{
+    height: 300px;
+    width: 680px;
+    background-image: url(./Images/bandorban.png);
+}
+.destinationimg{
+    color: white;
+    align-content: center;
+    text-align: center;
+    /* gap: 20px; */
+    /* width:500px; */
+    /* height: 100%; */
+    background-size: auto;
+    background-repeat: no-repeat;background-position: center;
+
+
+}
+/* why choose us section started */
+
+/* .why-choose-us-card-area{
+
+
+    gap: 20px;
+    justify-content: space-between;
+   align-content: center;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.cards{
+    height: 220px;
+    width: 45%;
+    border-radius: 13px;
+    padding: 2%;
+}
+.card-icon > img{
+    height: 64px;
+    width: 64px;
+}
+.top-card{
+background-color: rgba(251, 180, 99, 0.279);
+border: 2px solid rgba(251, 180, 99, 0.39);
+
+border: 2px solid (251, 181, 99, 1) ;}
+.middle-card{
+background-color: rgba(41, 206, 246, 0.2);
+border: 2px solid rgba(3, 152, 189, 0.265) ;
+}
+.bottom-card{
+    background-color: rgba(240, 155, 155, 0.208);
+    margin-left: 30%;
+    border: 2px solid rgba(240, 155, 155, 0.409) ;
+}
+.first-line-card{
+    display: flex;
+    background-color: rgb(46, 120, 120);
+} */
+
+
+/* 2nd time why choose us section started */
+.why-choose-us-parent{
+   margin-top: 60px;
+}
+.why-choose-us-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.why-choose-us-parent>p{
+    color: var(--primary-color);
+}
+.cardimg > img  {
+    height: 64px ;
+    width: 64px;
+}
+.first-line-card{
+    display: flex;
+}
+.card{
+    width: 550px;
+ padding: 20px;
+ border-radius: 13px;
+
+}
+card>h3{
+    color: var(--black);
+}
+.card>p{
+    color: var(--primary-color);
+}
+.card-1{
+    background-color:rgba(251, 180, 99, 0.1) ;
+}
+.card-2{
+    background-color:rgba(41, 205, 246, 0.1) ;
+    margin-left: 30px;
+}
+.card-3{
+    background-color: rgba(233, 68, 68, 0.1);
+}
+.bottom-card {
+   
+margin-left: 25%;
+margin-top: 30px;
+    
+}
+/* discount section started */
+
+.deals-and-discount-parent{
+    margin-top: 100px;
+}
+.deals-and-discount-title{
+    text-align: center;
+}
+
+.same{
+background-image: url(./Images/discountbg1.png);
+background-repeat: no-repeat;
+height: 500px;
+padding: 50px 50px 50px 43% ;
+background-position: center;
+
+}
+.different{
+    background-image: url(./Images/discountbg2.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    /* width: 40%; */
+    padding-top: 5px;
+    background-position: center;
+}
+.different > .discount-banner-eliments{
+    width: 40%;
+    margin-left: 5%;
+}
+.discount-banner-eliments{
+    background-color: rgb(255, 255, 255,0.8);
+    width: 80%;
+    height: 300px;
+    padding: 50px;
+    border-radius: 14px;
+    border: 2px solid white;
+    justify-content: right;
+    margin-top: 50px;
+    margin-right: 4%;
+    
+}
+.discount-ul{
+    display: flex;
+    margin-left: -50px;
+}
+.discount-ul li {
+    list-style: none;
+    margin:auto 12px;
+}
+.discount-ul li i{
+    color: var(--orange-theme-color);
+}
+.only-orange{
+    color: var(--orange-theme-color);
+    
+}
+.discount-banner-eliments p{
+    color: var(--primary-color);
+}
+.discount-banner-eliments li{
+    color: var(--primary-color);
+}
+.discount-banner-eliments >h3{
+    font-size: 1.5rem;
+}
+.responsive-p{
+    display: none;
+}
 @media screen and (max-width: 576px) {
     header{
         margin: 30px 20px auto ;
@@ -205,6 +433,9 @@ main{
         font-weight: 500;
         margin-left: 180%;
         color: var(--primary-color);
+    }
+    .explore-parent{
+        width: auto;
     }
     .explore-title-and-description{
         margin-top: 30px;
@@ -244,9 +475,12 @@ main{
 
     }
     #input-size-adjustment{
-        width: 82%;
+        width: 85%;
     }
 
+    .destination-title >h1{
+        font-size: 1.5rem;
+    }
     .popular-tours-parent{
         display: flex;
         flex-direction: column;
@@ -263,4 +497,87 @@ main{
         margin-top: 20px;
         /* margin-left: -30px; */
     }
+    .first-line-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 305px;
+    }
+    .card-1{
+        margin: auto;
+        margin-left: -15px;
+    }
+    .card-2{
+        margin-left: -15px;
+        margin-top: 30px;
+    }
+.card-3{
+    /* width: auto; */
+    margin-left: -95px;
 }
+
+.desktop-p{
+    display: none;
+}
+
+.responsive-p{
+    display: flex;
+    text-align: left;
+    color: var(--primary-color);
+}
+
+
+.discount-ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -50px;
+}
+.discount-banner-eliments{
+    width: 255px;
+    height: 315px;
+    padding: 15px;
+    justify-content: center;
+    /* margin-top: 200px; */
+    /* padding-top: 200px; */
+    margin-right: 0;
+    /* padding-bottom: 200px; */
+    
+    
+}
+.different > .discount-banner-eliments{
+    width: 255px;
+    margin-left: 0;
+    height: 315px;
+    /* border-radius: 14px; */
+    
+}
+.btn-primary{
+    size: 0.1rem;
+    height: 40px;
+    width: 130px;
+    font-size: 1rem;
+}
+.same{
+    padding: 185px 15px 15px 15px;
+    margin-top: -70px;
+
+}
+.bottom{
+    margin-top: -175px;
+}
+.different{
+    padding: 185px 15px 15px 15px;
+    margin-top: -175px;
+}
+.only-orange{
+    font-size: 1.1rem;
+}
+
+.discount-banner-eliments >h3{
+    font-size: 1.1rem;
+}
+.discount-banners-parent{
+    /* gap: 1000px; */
+}
+} 
