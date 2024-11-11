@@ -15,7 +15,7 @@
 
 :root{
     --orange-theme-color: rgba(255, 84, 0, 1);
-    --primary-color:rgba(66, 66, 71, 1);
+    --primary-color:rgba(66, 66, 71, 0.824);
     --black:rgba(19, 19, 24, 1)
     --light-gray: rgba(19, 19, 24, 0.5);
 }
@@ -420,8 +420,68 @@ background-position: center;
     
 /* discount section end  */
 
+/* perfect place section started */
 
+.perfect-place-container{
+    display: flex;
+    margin-top: 80px;
+}
+
+.perfect-place-description{
+    margin-right: 40px;
+}
+.perfect-place-description>h1{
+    font-size: 2.5rem;
+}
+.perfect-place-description>ul>li{
+    margin-bottom: 30px;
+        margin: 25px auto;
+    }
+
+    .perfect-place-description>p{
+        color: var(--primary-color);
+    }
+/* newsletter section started  */
+.newsletter-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.newsletter-description{
+    border: 2px solid var(--orange-theme-color);
+ border-radius: 15px;
+ padding: 30px;
+}
+.newsletter-description>p,hr{
+    color: var(--primary-color);
+}
+
+.newsletter-description> form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 210px;
+   }
+
+.newsletter-description> form>input{
+    border: 0;
+    border-radius: 13px;
+    padding: 20px;
+    background-color: rgba(19, 19, 24, 0.066);
+    color: var(--primary-color);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.newsletter-description> form>.btn-primary{
+    width: auto;
+    margin-top: 10px;
+    height: 55px;
+}
+
+
+   
 @media screen and (max-width: 576px) {
+
     header{
         margin: 30px 20px auto ;
     }
@@ -603,4 +663,39 @@ margin-top: -70px;
     
 }
 
+.perfect-place-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.perfect-place-image {
+    margin-top: 25px;
+}
+.perfect-place-image >img{
+    height: 200px;
+    width: 335px;
+}
+.newsletter-container{
+    display: flex;
+    flex-direction: column;
+}
+.newsletter-image > img {
+    width: 335px;
+    height: 300px;
+}
+.newsletter-description> form>input{
+    width: 230px  ;
+}
+
+.newsletter-description> form>.btn-primary{
+    width: 270px;
+}
+.newsletter-container{
+    margin-top: 50px;
+}
+.newsletter-description{
+    margin-bottom: 30px;
+    width: 270px;
+    
+}
 } 
