@@ -409,6 +409,18 @@ background-position: center;
 .responsive-p{
     display: none;
 }
+.see-all-btn .btn-primary{
+    margin-left: 43%;
+    width: 180px;
+    
+}
+.see-all-btn {
+    margin-top: -30px;
+    }
+    
+/* discount section end  */
+
+
 @media screen and (max-width: 576px) {
     header{
         margin: 30px 20px auto ;
@@ -580,4 +592,15 @@ background-position: center;
 .discount-banners-parent{
     /* gap: 1000px; */
 }
+
+.see-all-btn {
+margin-top: -70px;
+}
+.see-all-btn .btn-primary{
+    margin-left: 25%;
+    width: 180px;
+    /* margin-top: -200px; */
+    
+}
+
 } 
